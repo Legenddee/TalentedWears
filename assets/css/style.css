@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+}
+.navbar-brand{
+    font-family: 'Poppins';
+    /* color: #556B2F; */
+}
+.navbar-brand span{
+    font-weight: bold;
+    /* color: #cc6e16; */
+}
+.navigations .nav-link{
+    font-weight: 600;
+    color: #000;
+    margin: 0px 20px;
+}
+.slider-section{
+    margin-top: 6rem;
+    width: 100%;
+    height: 55vh;
+    padding: 10px;
+    position: relative;
+    background-color:#cc6e16;
+}
+.carousel{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.wrapper{
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); */
+}
+.compress{
+    display: flex;
+    
+}
+.img-container img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: auto;
+    height: 50vh;
+    object-fit: contain;
+}
+.img-container img:hover{
+    opacity: .6;
+}
+.text-container{
+    width:auto;
+    height: 50vh;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.text-container h1{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.text-container p{
+    font-size: large;
+}
+.text-container .rating-star{
+    margin-top: 1rem;
+    text-align: center;
+}
+.fas.fa-star {
+    color: #cc6e16;
+    font-size: 14px; 
+}
+.buy-btn button{
+    width: 200px;
+    height: 40px;
+    background-color: #cc6e16;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.buy-btn button:hover{
+    background-color: #f0af0b;
+    transition: all 1s;
+}
+#why-us{
+    margin: 60px 0px;
+}
+.best-collection #why-us h2{
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.best-collection #why-us p{
+    font-family: 'arial';
+    font-size: 20px;
+}
+
+/* --video --*/
+.video-container {
+    max-width:100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 10px;  
+  }
+  
+  video {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  /* ---best product--- */
+  .Best-Collection{
+    margin: 70px 0px 60px 0px;
+  }
+  .Best-Collection h2{
+    font-family: 'Poppins';
+    /* font-weight: 600; */
+    text-align: center;
+  }
+  .product-container {
+    width: 100%; /* Adjust the width as needed */
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .product-item {
+    display: inline-block;
+    width: 300px; 
+    height: auto; 
+    margin-right: 20px; 
+    background-color: #f2f2f2; 
+    border-radius: 5px;
+    position: relative;
+  }
+  .product-item img{
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+  }
+  .price {
+    color: #fff;
+    position: absolute;
+    top: 10px; /* Adjust the vertical position as needed */
+    left: 10px; /* Adjust the horizontal position as needed */
+    background-color: #f08d0b; /* Set the background color with some transparency */
+    padding: 5px 10px; /* Adjust the padding as needed */
+    border-radius: 5px;
+  }
+
+  /* ----look book--- */
+  .lookBook{
+    margin: 30vh 0px;
+  }
+  .lookBook img{
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    /* transform: rotateZ(35deg); */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  }
+  .lookBook h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    /* text-align: center; */
+  }
+  .lookBook h2 span{
+    color: #cc6e16;
+  }
+  /* ---shop-withUs--- */
+  .shop-withUs{
+    width: 100%;
+    height: auto;
+    background-color: #cc6e16;
+    margin: 0vh 0vh 20vh 0vh;
+    padding: 20px 0px 0px 0px;
+  }
+.shop-withUs .carD{
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+} 
+.carD i{
+    font-size: 5rem;
+    color: #cc6e16;
+}
+
+/* ---NEWIN---- */
+
+/* For large devices like desktops */
+@media (min-width: 992px) {
+    .navbar-brand{
+        font-size: 3rem;
+        margin:0px  60px 0px -40px;
+    }
+    .Best-Collection h2{
+        font-size: 4em;
+    }
+    .best-collection #why-us h2{
+        font-size: 3em;
+    }
+    .lookBook h2{
+        font-size: 4em;
+    }
+    #lookBook02{
+        transform: translateY(5rem);
+    }
+    #lookBook03{
+        transform: translateY(10rem);
+        margin-bottom: 15vh;
+        margin-bottom: 20vh;
+    }
+    #shop-withUs-h2{
+        font-size:3em;
+        text-align: center;
+        font-family: 'Poppins';
+        margin-top: 20vh;
+    }
+    .newIn h2{
+        font-size:3em;
+        text-align: center;
+        font-family: 'Poppins';
+    }
+  }
+
+
+  /* For medium devices like tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* CSS rules for medium devices */
+  }
+
+  /* For small devices like smartphones */
+@media (max-width: 767px) {
+    .navbar-brand{
+        font-size: 2rem;
+    }
+  }
